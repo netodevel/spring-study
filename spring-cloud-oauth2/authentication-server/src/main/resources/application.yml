@@ -1,0 +1,18 @@
+#server:
+#  port: 9094
+#
+#security:
+#    oauth2:
+#        resource:
+#            filter-order: 3
+#
+#spring:
+#    datasource:
+#        password: netinho123
+#        url: jdbc:postgresql://localhost:5432/oauth
+#        username: postgres
+#    jpa:
+#        generate-ddl: false
+#        hibernate:
+#            ddl-auto: create-drop
+#        show-sql: true

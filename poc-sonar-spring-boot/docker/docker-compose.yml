@@ -1,0 +1,14 @@
+version: '3'
+services:
+  mongo-db:
+    image: mongo
+    ports:
+      - "27017:27017"
+  back-end:
+    build: ..
+    ports:
+    - "8081:8081"
+    depends_on:
+      - mongo-db
+    links:
+      - mongo-db

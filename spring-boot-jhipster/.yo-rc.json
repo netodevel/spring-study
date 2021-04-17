@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "br.com.netodevel"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "microservice",
+    "baseName": "boilerplate",
+    "packageName": "br.com.netodevel",
+    "packageFolder": "br/com/netodevel",
+    "serverPort": "8081",
+    "authenticationType": "oauth2",
+    "cacheProvider": "redis",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NDFlMzVjOGRmZDY5OGU1ZmQwMzg3NDMxMTcyYTVhNTg3MzM0NDI1Mjg3MjRjZjU1ODlmNzU0M2QyMGRjYjEzN2I2NDhkMzg5ODNhNjU2YTNkNGRmZDc4ZjBlMDg0YTk4YzIwODFmMzgyNWZlZDcwZDc1MDdiMjY4OWM3Mzg0YjU=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1618682511328,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

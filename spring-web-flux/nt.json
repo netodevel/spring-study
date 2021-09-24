@@ -1,0 +1,10 @@
+{
+    "javaProjects": {
+        "packageController": "controllers",
+        "groupId": "br.com.varchar"
+    },
+    "liquibase": {
+        "destination": "db/changelogs"
+    }
+}
+

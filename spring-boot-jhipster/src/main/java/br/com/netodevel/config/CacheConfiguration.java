@@ -76,11 +76,6 @@ public class CacheConfiguration {
     @Bean
     public JCacheManagerCustomizer cacheManagerCustomizer(javax.cache.configuration.Configuration<Object, Object> jcacheConfiguration) {
         return cm -> {
-            createCache(cm, br.com.netodevel.repository.UserRepository.USERS_BY_LOGIN_CACHE, jcacheConfiguration);
-            createCache(cm, br.com.netodevel.repository.UserRepository.USERS_BY_EMAIL_CACHE, jcacheConfiguration);
-            createCache(cm, br.com.netodevel.domain.User.class.getName(), jcacheConfiguration);
-            createCache(cm, br.com.netodevel.domain.Authority.class.getName(), jcacheConfiguration);
-            createCache(cm, br.com.netodevel.domain.User.class.getName() + ".authorities", jcacheConfiguration);
             // jhipster-needle-redis-add-entry
         };
     }

@@ -132,16 +132,6 @@ spring:
   output:
     ansi:
       console-available: true
-  security:
-    oauth2:
-      client:
-        provider:
-          oidc:
-            issuer-uri: http://localhost:9080/auth/realms/jhipster
-        registration:
-          oidc:
-            client-id: internal
-            client-secret: internal
 
 server:
   servlet:
@@ -184,11 +174,6 @@ jhipster:
     contact-email:
     license: unlicensed
     license-url:
-  security:
-    oauth2:
-      audience:
-        - account
-        - api://default
 # ===================================================================
 # Application specific properties
 # Add your own application properties here, see the ApplicationProperties class

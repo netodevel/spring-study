@@ -2,7 +2,6 @@ package br.com.netodevel.config.timezone;
 
 import br.com.netodevel.BoilerplateApp;
 import br.com.netodevel.RedisTestContainerExtension;
-import br.com.netodevel.config.TestSecurityConfiguration;
 import br.com.netodevel.repository.timezone.DateTimeWrapper;
 import br.com.netodevel.repository.timezone.DateTimeWrapperRepository;
 import org.junit.jupiter.api.BeforeEach;
@@ -24,7 +23,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 /**
  * Integration tests for the ZoneId Hibernate configuration.
  */
-@SpringBootTest(classes = {BoilerplateApp.class, TestSecurityConfiguration.class})
+@SpringBootTest(classes = BoilerplateApp.class)
 @ExtendWith(RedisTestContainerExtension.class)
 public class HibernateTimeZoneIT {
 

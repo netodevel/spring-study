@@ -1,0 +1,26 @@
+server:
+  port: 8087
+
+spring:
+  data:
+    mongodb:
+      #uri: 'mongodb://root:root@localhost:27017/person-db'
+      host: localhost
+      port: 27017
+      database: person-db
+
+management:
+  health:
+    diskspace:
+      enabled: false
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+info:
+  app:
+    name: @project.name@
